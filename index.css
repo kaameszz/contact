@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f7f7f7, #dfe9f3);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px  ;
+}
+.form {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+#contact {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#contact input,
+#contact button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+#contact input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#contact button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card input {
+  border: none;
+  background: #f4f4f4;
+  padding: 8px 10px;
+  border-radius: 6px;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.card input[readonly] {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.card button {
+  padding: 7px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.card button:hover {
+  opacity: 0.85;
+}
+
+.card button:nth-child(4) {
+  background-color: #ffc107;
+  color: white;
+}
+
+.card button:nth-child(5) {
+  background-color: #28a745;
+  color: white;
+}
+
+.card button:nth-child(6) {
+  background-color: #dc3545;
+  color: white;
+}
